@@ -1,1 +1,24 @@
-aaa
+Part 1 : Rediger Compte rendu du TP
+
+A//Projet existant à suivre et à héberger
+
+- il faut commencer par creer un dossier 
+	$mkdir nomDuDossier
+
+- sur git hub il faut créer un repository
+
+-se placer dans le dossier en local et faire la commande suivante
+	$git init
+
+-ajouter a l'index notre fichier et faire la commande suivante
+	$git add nomDuFichier
+
+-puis valider le fichier avec la commande suivante 
+	$git commit -m "commentaire"
+
+-ensuite le pousser avec la commande suivante
+	$git push origine master
+
+-puis saisir votre identifiant et votre password
+
+B//
