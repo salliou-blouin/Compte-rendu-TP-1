@@ -1,24 +1,63 @@
 Part 1 : Rediger Compte rendu du TP
 
-A//Projet existant à suivre et à héberger
+	A//Projet existant à suivre et à héberger
 
-- il faut commencer par creer un dossier 
-	$mkdir nomDuDossier
+		- il faut commencer par creer un dossier 
+			
+			$mkdir nomDuDossier
 
-- sur git hub il faut créer un repository
+		- sur git hub il faut créer un repository
 
--se placer dans le dossier en local et faire la commande suivante
-	$git init
+		-se placer dans le dossier en local et faire la commande suivante
+			
+			$git init
 
--ajouter a l'index notre fichier et faire la commande suivante
-	$git add nomDuFichier
+		-ajouter a l'index notre fichier et faire la commande suivante
+			
+			$git add nomDuFichier
 
--puis valider le fichier avec la commande suivante 
-	$git commit -m "commentaire"
+		-puis valider le fichier avec la commande suivante 
+			
+			$git commit -m "commentaire"
 
--ensuite le pousser avec la commande suivante
-	$git push origine master
+		-ensuite le pousser avec la commande suivante
+			
+			$git push origine master
 
--puis saisir votre identifiant et votre password
+		-puis saisir votre identifiant et votre password
 
-B//
+
+	C//Projet non existant à suivre et à héberger
+		
+		- il faut commencer par creer un dossier
+
+                        $mkdir nomDuDossier
+
+                - sur git hub il faut créer un repository
+
+		- créer un fichier plat avec la commande suivante
+
+			$nano nomDuFichier
+
+                -se placer dans le dossier en local et faire la commande suivante
+
+                        $git init
+
+                -ajouter a l'index notre fichier et faire la commande suivante
+
+                        $git add nomDuFichier
+
+		-il faut configurer le repertoire local sur git hub avec les commande suivante
+
+			$git config user.email "@mail de l'user"
+			$git config user.name "nom de l'user"
+
+                -puis valider le fichier avec la commande suivante
+
+                        $git commit -m "commentaire"
+
+                -ensuite le pousser avec la commande suivante
+
+                        $git push origine master
+
+                -puis saisir votre identifiant et votre password
